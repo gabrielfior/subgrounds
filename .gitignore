@@ -15,3 +15,5 @@ subgrounds.egg-info/
 
 # apple
 .DS_Store
+
+.idea/
