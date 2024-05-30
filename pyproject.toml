@@ -19,7 +19,7 @@ pydantic = "^2.6.1"
 dash = { version = "^2.3.1", optional = true }
 plotly = { version = "^5.14.1", optional = true }
 httpx = { extras = ["http2"], version = "^0.25.1" }
-pytest-asyncio = "^0.21.0"
+pytest-asyncio = "*"
 
 [tool.poetry.extras]
 dash = ["dash"]
