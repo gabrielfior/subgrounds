@@ -2,6 +2,12 @@
 
 <!--next-version-placeholder-->
 
+## v1.8.2 (2024-06-10)
+
+### Fix
+
+* Caching bug ([#55](https://github.com/0xPlaygrounds/subgrounds/issues/55)) ([`196b3a2`](https://github.com/0xPlaygrounds/subgrounds/commit/196b3a2d11a4852bb3c6aa6959b3c7564068baac))
+
 ## v1.8.1 (2023-11-10)
 
 ### Fix
