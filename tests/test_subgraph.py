@@ -2166,6 +2166,56 @@ def test_filter_2(subgraph: Subgraph):
         assert actual == expected
 
 
+def test_null_filter(subgraph: Subgraph):
+    """
+    This test demonstrates the usage of a null-filter, i.e. a condition where
+    or "columnA is None".
+    """
+
+    expected = Filter(
+        [
+            TypeMeta.FieldMeta(
+                name="token0",
+                description="",
+                args=[],
+                type=TypeRef.Named(name="Token", kind="OBJECT"),
+            )
+        ],
+        Filter.Operator.EQ,
+        None,
+    )
+
+    actual = subgraph.Pair.token0 == None  # noqa: E711
+
+    with fieldpath_test_mode():
+        assert actual == expected
+
+
+def test_not_null_filter(subgraph: Subgraph):
+    """
+    This test demonstrates the usage of a none null-filter, i.e. a condition where
+    or "columnA is not None".
+    """
+
+    expected = Filter(
+        [
+            TypeMeta.FieldMeta(
+                name="token0",
+                description="",
+                args=[],
+                type=TypeRef.Named(name="Token", kind="OBJECT"),
+            )
+        ],
+        Filter.Operator.NEQ,
+        None,
+    )
+
+    actual = subgraph.Pair.token0 != None  # noqa: E711
+
+    with fieldpath_test_mode():
+        assert actual == expected
+
+
 def test_filter_to_dict(filter: Filter):
     expected = {'token0_': {'symbol': 'CRV'}}
 
