@@ -69,7 +69,7 @@ Subgrounds also comes bundled with extra modules that may require extra librarie
 
 
 ## About Us
-Playgrounds Analytics is a data solutions company providing serverless onchain data infrastructures and services for data teams, analysts, and engineers. Check us out [here](https://playgrounds.network/) to learn more!
+Playgrounds Analytics is a data solutions company providing data infrastructures and services for data teams, analysts, and engineers. Check us out [here](https://playgrounds.network/) to learn more!
 
 
 ## Acknowledgments
