@@ -2,6 +2,12 @@
 
 <!--next-version-placeholder-->
 
+## v1.8.3 (2024-06-10)
+
+### Fix
+
+* Added test for null_filter condition. ([#53](https://github.com/0xPlaygrounds/subgrounds/issues/53)) ([`d022c85`](https://github.com/0xPlaygrounds/subgrounds/commit/d022c8525e0fa88c55352376b754aaebfc2dec10))
+
 ## v1.8.2 (2024-06-10)
 
 ### Fix
