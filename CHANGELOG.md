@@ -2,6 +2,12 @@
 
 <!--next-version-placeholder-->
 
+## v1.9.0 (2024-06-18)
+
+### Feature
+
+* **chore:** Bump deps, might consider >= in the future ([`9e4a5b8`](https://github.com/0xPlaygrounds/subgrounds/commit/9e4a5b8a78dc4ddd8223946d04de025e3cb100f8))
+
 ## v1.8.3 (2024-06-10)
 
 ### Fix
