@@ -29,7 +29,7 @@ all = ["dash", "plotly"]
 # https://python-poetry.org/docs/managing-dependencies/#dependency-groups
 [tool.poetry.group.dev.dependencies]
 black = "^22.3.0"
-deepdiff = "^6.2.1"                 # used for debugging data structures
+deepdiff = "^6.2.1"                  # used for debugging data structures
 ipykernel = "^6.13.0"
 mypy = "^0.950"
 pytest = "^7.1.2"
