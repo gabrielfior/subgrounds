@@ -2,6 +2,12 @@
 
 <!--next-version-placeholder-->
 
+## v1.9.1 (2024-06-20)
+
+### Fix
+
+* Trigger CI ([`ee5d982`](https://github.com/0xPlaygrounds/subgrounds/commit/ee5d982fbf8023c9a8e9f3514f7a87a37b2898a6))
+
 ## v1.9.0 (2024-06-18)
 
 ### Feature
